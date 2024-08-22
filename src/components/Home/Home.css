@@ -5,13 +5,12 @@
 
 .header {
   padding: 60px 20px;
-  background: linear-gradient(120deg, #ff4081, #81d4fa);
   color: white;
   margin-bottom: 40px;
 }
 
 .header-title {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 10px;
 }
 

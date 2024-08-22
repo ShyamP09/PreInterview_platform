@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../Commons/Navbar";
 
-const HomeCourse = () => {
+const ResumeBuilder = () => {
   return (
     <>
       <Navbar />
-      <div>Courses Page</div>
+      <div>ResumeBuilder</div>
     </>
   );
 };
 
-export default HomeCourse;
+export default ResumeBuilder;

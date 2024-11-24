@@ -83,7 +83,7 @@ const Home = () => {
               ref={resumeRef}
               className="option-card resume-builder hover:cursor-pointer"
             >
-              <Link to={"/resume"}>
+              <Link to={"/resume/dashboard"}>
                 <h2>Resume Builder</h2>
                 <p>Craft the perfect resume to showcase your skills.</p>
               </Link>
@@ -92,8 +92,12 @@ const Home = () => {
               ref={practiceRef}
               className="option-card practice hover:cursor-pointer"
             >
-              <h2>Practice</h2>
-              <p>Sharpen your skills with mock interviews and tests.</p>
+              <Link to={"/groupdiscussion"}>
+                <h2>Group Discussion</h2>
+                <p>
+                  Sharpen your communication skills with live Group Discussion.
+                </p>
+              </Link>
             </div>
           </div>
         </div>
